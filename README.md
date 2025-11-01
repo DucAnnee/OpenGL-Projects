@@ -7,17 +7,17 @@ This repository includes some simple OpenGL applications implemented with GLFW a
 OpenGL-Projects/
 ├── atom-visualizer/            
 └── mini-blender/                
-
 ```
+
 Each application has the following structure:
 
 ```
 application-name/
-├── app/                        # Defines essential components such as renderer, world grid, scene manager, etc...
-├── lib/                        # Implements OpenGL buffer management, shader, transformation logic
-├── objects/                    # Defines different drawable objects in the application
-├── shaders/                    # Includes some shaders such as Phong, Gouraud, Phong with texture
-└── main.py                     # Entry point for the application
+├── app/        # Defines essential components such as renderer, world grid, scene manager, etc...
+├── lib/        # Implements OpenGL buffer management, shader, transformation logic
+├── objects/    # Defines different drawable objects in the application
+├── shaders/    # Includes some shaders such as Phong, Gouraud, Phong with texture
+└── main.py     # Entry point for the application
 ```
 
 ## Application description
@@ -33,9 +33,9 @@ Visualization of some simple molecules (H2O, CO2, ...) using ball and stick mode
 Simple application that can render variety of 2D and 3D objects:
 - 2D Shapes: triangle, rectangle, pentagon, regular hexagon, circle, ellipse, trapezoid, star, arrow.
 - 3D Shapes:
-    – Basic solids: cube, sphere, cylinder, cone, truncated cone, tetrahedron, torus, prism.
-    – Mathematical surface defined by a user-provided function z = f(x, y).
-    – Imported 3D model from .obj or .ply file.
+    + Basic solids: cube, sphere, cylinder, cone, truncated cone, tetrahedron, torus, prism.
+    + Mathematical surface defined by a user-provided function z = f(x, y).
+    + Imported 3D model from .obj or .ply file.
 
 Support mouse interaction to zoom, pan, view the scene and keyboard interaction for manipulating the objects, changing different rendering modes.
 
