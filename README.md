@@ -23,12 +23,17 @@ application-name/
 ## Application description
 
 ### Atom visualizer
+```html
+<img src="atom-visualizer/atom-visualizer-preview.jpg" alt="A Gallium atom" width="200"/>
+<img src="atom-visualizer/atom-visualizer-preview2.jpg" alt="A CH4 molecule" width="200"/>
+```
 
 Visualization of atoms using Bohr's model. Has a GUI for selecting different elements from the periodic table.
 
 Visualization of some simple molecules (H2O, CO2, ...) using ball and stick models.
 
 ### Mini blender
+![A scene with a torus object](mini-blender/mini-blender-preview.jpg)
 
 Simple application that can render variety of 2D and 3D objects:
 - 2D Shapes: triangle, rectangle, pentagon, regular hexagon, circle, ellipse, trapezoid, star, arrow.
