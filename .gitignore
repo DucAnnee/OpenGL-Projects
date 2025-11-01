@@ -1,0 +1,52 @@
+# Compiled object files, binaries, and libraries
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+
+# Build directories
+/build/
+bin/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ImGui examples/build artifacts
+examples/
+misc/fonts/*.ttf
+
+# Python virtual environments
+venv/
+.env/
+.envrc
+
+# Log files
+*.log
+
+# Cache
+__pycache__/
+.pyc
+
+# GLFW generated files
+glfw_build/

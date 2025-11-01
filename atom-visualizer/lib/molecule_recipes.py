@@ -1,0 +1,192 @@
+recipes = {
+    "H2O": {
+        "atom": {"symbol": "O", "radius": 0.5},
+        "bonding_type": "bent",
+        "children": [
+            {
+                "atom": {"symbol": "H", "radius": 0.35},
+                "bonding_type": "single",
+                "bond_length": 1.5,
+                "bond_radius": 0.1,
+                "children": [],
+            },
+            {
+                "atom": {"symbol": "H", "radius": 0.35},
+                "bonding_type": "single",
+                "bond_length": 1.5,
+                "bond_radius": 0.1,
+                "children": [],
+            },
+        ],
+    },
+    "CO2": {
+        "atom": {"symbol": "C", "radius": 0.5},
+        "bonding_type": "linear",
+        "children": [
+            {
+                "atom": {"symbol": "O", "radius": 0.5},
+                "bonding_type": "",
+                "bond_length": 1.2,
+                "bond_radius": 0.1,
+                "bond_count": 2,
+                "children": [],
+            },
+            {
+                "atom": {"symbol": "O", "radius": 0.5},
+                "bonding_type": "",
+                "bond_length": 1.2,
+                "bond_radius": 0.1,
+                "bond_count": 2,
+                "children": [],
+            },
+        ],
+    },
+    "CH4": {
+        "atom": {"symbol": "C", "radius": 0.5},
+        "bonding_type": "tetrahedral",
+        "children": [
+            {
+                "atom": {"symbol": "H", "radius": 0.35},
+                "bonding_type": "",
+                "bond_length": 1.1,
+                "bond_radius": 0.1,
+                "children": [],
+            },
+            {
+                "atom": {"symbol": "H", "radius": 0.35},
+                "bonding_type": "",
+                "bond_length": 1.1,
+                "bond_radius": 0.1,
+                "children": [],
+            },
+            {
+                "atom": {"symbol": "H", "radius": 0.35},
+                "bonding_type": "",
+                "bond_length": 1.1,
+                "bond_radius": 0.1,
+                "children": [],
+            },
+            {
+                "atom": {"symbol": "H", "radius": 0.35},
+                "bonding_type": "",
+                "bond_length": 1.1,
+                "bond_radius": 0.1,
+                "children": [],
+            },
+        ],
+    },
+    "SO2": {
+        "atom": {"symbol": "S", "radius": 0.6},
+        "bonding_type": "bent",
+        "children": [
+            {
+                "atom": {"symbol": "O", "radius": 0.5},
+                "bonding_type": "",
+                "bond_length": 1.4,
+                "bond_radius": 0.1,
+                "bond_count": 2,
+                "children": [],
+            },
+            {
+                "atom": {"symbol": "O", "radius": 0.5},
+                "bonding_type": "",
+                "bond_length": 1.4,
+                "bond_radius": 0.1,
+                "bond_count": 2,
+                "children": [],
+            },
+        ],
+    },
+    "SO3": {
+        "atom": {"symbol": "S", "radius": 0.6},
+        "bonding_type": "trigonal_planar",
+        "children": [
+            {
+                "atom": {"symbol": "O", "radius": 0.5},
+                "bonding_type": "",
+                "bond_length": 1.4,
+                "bond_radius": 0.1,
+                "bond_count": 2,
+                "children": [],
+            },
+            {
+                "atom": {"symbol": "O", "radius": 0.5},
+                "bonding_type": "",
+                "bond_length": 1.4,
+                "bond_radius": 0.1,
+                "bond_count": 2,
+                "children": [],
+            },
+            {
+                "atom": {"symbol": "O", "radius": 0.5},
+                "bonding_type": "",
+                "bond_length": 1.4,
+                "bond_radius": 0.1,
+                "bond_count": 2,
+                "children": [],
+            },
+        ],
+    },
+    "SF4": {
+        "atom": {"symbol": "S", "radius": 0.6},
+        "bonding_type": "seesaw",
+        "children": [
+            {
+                "atom": {"symbol": "F", "radius": 0.5},
+                "bonding_type": "",
+                "bond_length": 1.6,
+                "bond_radius": 0.1,
+                "children": [],
+            },
+            {
+                "atom": {"symbol": "F", "radius": 0.5},
+                "bonding_type": "",
+                "bond_length": 1.6,
+                "bond_radius": 0.1,
+                "children": [],
+            },
+            {
+                "atom": {"symbol": "F", "radius": 0.5},
+                "bonding_type": "",
+                "bond_length": 1.6,
+                "bond_radius": 0.1,
+                "children": [],
+            },
+            {
+                "atom": {"symbol": "F", "radius": 0.5},
+                "bonding_type": "",
+                "bond_length": 1.6,
+                "bond_radius": 0.1,
+                "children": [],
+            },
+        ],
+    },
+    "N2": {
+        "atom": {"symbol": "N", "radius": 0.5},
+        "bonding_type": "linear",
+        "children": [
+            {
+                "atom": {"symbol": "N", "radius": 0.5},
+                "bonding_type": "",
+                "bond_length": 1.1,
+                "bond_radius": 0.1,
+                "bond_count": 3,
+                "children": [],
+            },
+        ],
+    },
+    "CO": {
+        "atom": {"symbol": "C", "radius": 0.5},
+        "bonding_type": "linear",
+        "children": [
+            {
+                "atom": {"symbol": "O", "radius": 0.5},
+                "bonding_type": "",
+                "bond_length": 1.2,
+                "bond_radius": 0.1,
+                "bond_count": 3,
+                "children": [],
+            },
+        ],
+    },
+}
