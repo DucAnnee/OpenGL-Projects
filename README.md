@@ -23,10 +23,8 @@ application-name/
 ## Application description
 
 ### Atom visualizer
-```html
-<img src="atom-visualizer/atom-visualizer-preview.jpg" alt="A Gallium atom" width="200"/>
-<img src="atom-visualizer/atom-visualizer-preview2.jpg" alt="A CH4 molecule" width="200"/>
-```
+| ![A Gallium atom](atom-visualizer/atom-visualizer-preview.jpg) | ![A CH4 molecule](atom-visualizer/atom-visualizer-preview2.jpg) |
+|-------------------------------|-------------------------------|
 
 Visualization of atoms using Bohr's model. Has a GUI for selecting different elements from the periodic table.
 
